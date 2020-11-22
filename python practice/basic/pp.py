@@ -21,3 +21,7 @@ boys = {
 
 for index, value in enumerate(fruits):
   print(index, value)
+
+for i in boys:
+  for e in boys[i]:
+    print(i, e, boys[i][e])
