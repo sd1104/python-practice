@@ -4,6 +4,7 @@ fruits.insert(0, 'peach')
 fruits.insert(5, 'lemon')
 del fruits[5]
 
+
 boys = {
    'John': {
      'age': 20,
@@ -16,3 +17,7 @@ boys = {
      'dream': 'driver'
    }
 }
+
+
+for index, value in enumerate(fruits):
+  print(index, value)
