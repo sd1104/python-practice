@@ -26,13 +26,22 @@ boys = {
 
 import random
 
+# def make_plus():
+#   for i in range(10):
+#     numA = random.randint(0,10)
+#     numB = random.randint(0,10)
+#     plus = numA + numB
+#     formula = '{} + {}'
+#     formula1 = formula.format(numA, numB)
+#     print(formula1)
+
 def make_plus():
-  for i in range(10):
+  i = 0
+  while i < 10:
     numA = random.randint(0,10)
     numB = random.randint(0,10)
     plus = numA + numB
     formula = '{} + {}'
     formula1 = formula.format(numA, numB)
     print(formula1)
-
-make_plus()
+    i += 1
