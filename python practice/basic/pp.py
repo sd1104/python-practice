@@ -4,4 +4,15 @@ fruits.insert(1, 'melon')
 fruits.append('strawberry')
 fruits.extend(['pine', 'lemon'])
 
-print(fruits)
+boys = {
+  'john': {
+    'age': 20,
+    'hobby': 'fishing',
+    'job': 'hunter'
+  },
+  'mike': {
+    'age': 21,
+    'hobby': 'singing',
+    'job': 'assasin'
+  }
+}
