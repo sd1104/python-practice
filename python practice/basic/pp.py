@@ -16,3 +16,6 @@ boys = {
     'job': 'assasin'
   }
 }
+
+for index, value in enumerate(fruits):
+  print(index, value)
