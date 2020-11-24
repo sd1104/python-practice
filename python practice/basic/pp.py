@@ -48,9 +48,9 @@ import random
 
 height = 101
 
-if height == 180:
-  print(180)
-elif height == 100:
-  print(100)
-else:
-  print('other')
+# if height == 180:
+#   print(180)
+# elif height == 100:
+#   print(100)
+# else:
+#   print('other')
