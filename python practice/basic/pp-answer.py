@@ -1,3 +1,6 @@
+cd python\ practice/basic
+
+
 fruits = ['apple', 'orange', 'grape']
 fruits.insert(0, 'peach')
 fruits.insert(1, 'melon')
