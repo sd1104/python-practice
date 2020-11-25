@@ -22,7 +22,7 @@ boys = {
 #   for key2 in boys[key1]:
 #     print(key1, key2, boys[key1][key2])
 
-# import random
+import random
 
 # def plus():
 #   for i in range(10):
@@ -33,3 +33,22 @@ boys = {
 #     print(finished_text)
 
 # plus()
+
+
+def bingo():
+  bingo = random.randint(1,75)
+  count = 1
+
+  while bingo != 1:
+    count += 1
+    bingo = random.randint(1,75)
+
+  return count
+
+def ten():
+  count_array = []
+
+  for i in range(10):
+    count_array.append(bingo())
+
+  return(count_array)
