@@ -21,3 +21,15 @@ boys = {
 # for key1 in boys:
 #   for key2 in boys[key1]:
 #     print(key1, key2, boys[key1][key2])
+
+# import random
+
+# def plus():
+#   for i in range(10):
+#     numA = random.randint(1,10)
+#     numB = random.randint(1,10)
+#     formula_text = "{} + {}"
+#     finished_text = formula_text.format(numA, numB)
+#     print(finished_text)
+
+# plus()
