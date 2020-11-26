@@ -16,5 +16,7 @@ boys = {
   }
 }
 
-for index, value in enumerate(fruits):
-  print(index, value)
+num = 0
+for i in range(10):
+  num = (i+1) + (i+2)
+print(num)
