@@ -15,3 +15,6 @@ boys = {
     'job': 'diver'
   }
 }
+
+for(i in fruits):
+  print(i)
