@@ -16,9 +16,13 @@ boys = {
   }
 }
 
-num = 0
-i = 0
-while i < 10:
-  num = (i+1) + (i+2)
-  i += 1
-print(num)
+import random as ra
+
+lucky = ra.randint(1,10)
+
+if lucky == 10:
+  print('lucky')
+elif lucky == 4:
+  print('unlucky')
+else:
+  print('normal')
