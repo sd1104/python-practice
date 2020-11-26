@@ -17,6 +17,8 @@ boys = {
 }
 
 num = 0
-for i in range(10):
+i = 0
+while i < 10:
   num = (i+1) + (i+2)
+  i += 1
 print(num)
