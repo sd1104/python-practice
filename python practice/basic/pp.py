@@ -16,6 +16,5 @@ boys = {
   }
 }
 
-for key1 in boys:
-  for key2 in boys[key1]:
-   print(key1, key2, boys[key1][key2])
+for index, value in enumerate(fruits):
+  print(index, value)
