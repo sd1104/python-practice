@@ -22,9 +22,13 @@ boys = {
 #   for key2 in boys[key1]:
 #     print(key1, key2, boys[key1][key2])
 
-num = 0
-i = 0
-while i<10:
-  num += i+1
-  i+=1
-print(num)
+import random as rand
+
+num = rand.randint(1,10)
+
+if num == 10:
+  print('lucky')
+elif num == 4:
+  print('unlucky')
+else:
+  print('See you next!')
