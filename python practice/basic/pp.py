@@ -23,5 +23,8 @@ boys = {
 #     print(key1, key2, boys[key1][key2])
 
 num = 0
-for i in range(10):
+i = 0
+while i<10:
   num += i+1
+  i+=1
+print(num)
