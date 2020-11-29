@@ -14,14 +14,21 @@ boys = {
   }
 }
 
-for fruit in fruits:
-  print(fruit)
+import random as rand
 
-for key1 in boys:
-  for key2 in boys[key1]:
-    print(key1, key2, boys[key1][key2])
 
-num = 0
-for i in range(10):
-  num += i+1
-print(num)
+def omikuzi():
+  lucky = 0
+  unlucky= 0
+  normal = 0
+  for i in range(1000):
+    num = rand.randint(1,10)
+    if num == 10:
+      lucky += 1
+    elif num == 5:
+      unlucky += 1
+    else:
+      normal += 1
+  print(lucky, unlucky, normal)
+
+omikuzi()
