@@ -15,3 +15,10 @@ boys = {
     'job': 'assasin'
   }
 }
+
+for index, value in enumerate(fruits):
+  print(index, value)
+
+for i in boys:
+  for f in boys[i]:
+    print(i, f, boys[i][f])
