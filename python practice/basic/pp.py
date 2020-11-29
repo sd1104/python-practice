@@ -33,3 +33,12 @@ def make_plus():
     formula1 = formula.format(numA, numB)
     print(formula1)
     i += 1
+
+height = 101
+
+if height == 180:
+  print(180)
+elif height == 100:
+  print(100)
+else:
+  print('other')
