@@ -33,16 +33,14 @@ import random as rand
 #   n = x.count(100)
 #   print(n)
 
-def make_rand():
-  n = []
-  for i in range(1000):
-    n.append(rand.randint(1,10))
-  return n
+# def make_rand():
+#   n = []
+#   for i in range(1000):
+#     n.append(rand.randint(1,10))
+#   return n
 
-def array_count(x):
-  if x.count(10) >= 100:
-    print('lucky')
-  else:
-    print('unlucky')
-
-array_count(make_rand())
+# def array_count(x):
+#   if x.count(10) >= 100:
+#     print('lucky')
+#   else:
+#     print('unlucky')
