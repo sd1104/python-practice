@@ -40,6 +40,9 @@ def make_rand():
   return n
 
 def array_count(x):
-  print(x.count(10))
+  if x.count(10) >= 100:
+    print('lucky')
+  else:
+    print('unlucky')
 
 array_count(make_rand())
