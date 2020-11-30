@@ -5,40 +5,42 @@ fruits.extend(['lemon', 'melon'])
 
 boys = {
   'john': {
-    'age': 20,
-    'hobby': 'fishing',
-    'job': 'hunter'
+    'age': 21,
+    'hobby': 'fisihing'
   },
   'mike': {
-    'age': 21,
-    'hobby': 'singing',
-    'job': 'assasin'
+    'age': 22,
+    'hobby': 'singing'
   }
 }
 
-for index, value in enumerate(fruits):
-  print(index, value)
+# for fruit in fruits:
+#   print(fruit)
 
-for i in boys:
-  for f in boys[i]:
-    print(i, f, boys[i][f])
+# for key1 in boys:
+#   for key2 in boys[key1]:
+#     print(key1, key2, boys[key1][key2])
 
-def make_plus():
-  i = 0
-  while i < 10:
-    numA = random.randint(0,10)
-    numB = random.randint(0,10)
-    plus = numA + numB
-    formula = '{} + {}'
-    formula1 = formula.format(numA, numB)
-    print(formula1)
-    i += 1
+import random as rand
 
-height = 101
+# def make_array():
+#   num = []
+#   for i in range(1000):
+#     num.append(rand.randint(1,100)
+#   return num
 
-if height == 180:
-  print(180)
-elif height == 100:
-  print(100)
-else:
-  print('other')
+# def array_count(x):
+#   n = x.count(100)
+#   print(n)
+
+# def make_rand():
+#   n = []
+#   for i in range(1000):
+#     n.append(rand.randint(1,10))
+#   return n
+
+# def array_count(x):
+#   if x.count(10) >= 100:
+#     print('lucky')
+#   else:
+#     print('unlucky')
