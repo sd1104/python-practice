@@ -13,3 +13,6 @@ boys = {
     'hobby': 'singing'
   }
 }
+
+for fruit in fruits:
+  print(fruit)
