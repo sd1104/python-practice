@@ -44,3 +44,5 @@ import random as rand
 #     print('lucky')
 #   else:
 #     print('unlucky')
+
+print(fruits)
