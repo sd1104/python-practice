@@ -1,48 +1,34 @@
 fruits = ['apple', 'orange', 'grape']
 fruits.insert(0, 'pine')
-fruits.append('peach')
-fruits.extend(['lemon', 'melon'])
+fruits.append('lemon')
 
-boys = {
-  'john': {
-    'age': 21,
-    'hobby': 'fisihing'
-  },
-  'mike': {
-    'age': 22,
-    'hobby': 'singing'
-  }
-}
+jump = [121, -1, 12.1, 1000, 125, 126, 128, 129, 130, 150, 0, 'F', 150, 156, 80, 500, -6, 122.55]
+max = 150
 
-# for fruit in fruits:
-#   print(fruit)
+def count(jump, max):
+  digit = 0
+  abnormal = 0
+  illegal = 0
 
-# for key1 in boys:
-#   for key2 in boys[key1]:
-#     print(key1, key2, boys[key1][key2])
+  for i in range(len(jump)):
+    if type(jump[i]) == float:
+      digit += 1
 
-import random as rand
+  max = max
+  for i in range(len(jump)):
+    if type(jump[i]) == str:
+      continue
+    elif jump[i] > max or jump[i] < 0:
+      abnormal += 1
 
-# def make_array():
-#   num = []
-#   for i in range(1000):
-#     num.append(rand.randint(1,100)
-#   return num
+  for i in range(len(jump)):
+    if type(jump[i]) == str:
+      illegal += 1
+    elif jump[i] == 0:
+      illegal += 1
 
-# def array_count(x):
-#   n = x.count(100)
-#   print(n)
+  error = digit + abnormal + illegal
 
-# def make_rand():
-#   n = []
-#   for i in range(1000):
-#     n.append(rand.randint(1,10))
-#   return n
+  return digit, abnormal, illegal, error
 
-# def array_count(x):
-#   if x.count(10) >= 100:
-#     print('lucky')
-#   else:
-#     print('unlucky')
-
-print(fruits)
+print(count(jump, max))
