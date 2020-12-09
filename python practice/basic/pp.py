@@ -14,4 +14,5 @@ boys = {
   }
 }
 
-print(boys)
+for fruit in fruits:
+  print(fruit)
